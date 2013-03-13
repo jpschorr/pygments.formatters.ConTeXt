@@ -1,6 +1,6 @@
 # pygments.formatters.context
 
-This is a [Pygments](http://http://pygments.org/) formatter that formats tokens as  [ConTeXt](http://wiki.contextgarden.net/What_is_ConTeXt) 'verbatim' code.
+This is a [Pygments](http://pygments.org/) formatter that formats tokens as  [ConTeXt](http://wiki.contextgarden.net/What_is_ConTeXt) 'verbatim' code.
 
 ## Installation
 
