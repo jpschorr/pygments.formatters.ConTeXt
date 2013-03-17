@@ -29,6 +29,7 @@ def escape(text):
         replace(r'&', r'\&'). \
         replace(r'%', r'\%'). \
         replace(r'$', r'\$'). \
+        replace(r'|', r'\|'). \
         replace(r'#', r'\#')
 
 def _get_ttype_name(ttype):
