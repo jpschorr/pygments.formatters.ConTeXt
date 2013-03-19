@@ -144,7 +144,7 @@ class ContextFormatter(Formatter):
     def write_token(self, tok, ttype, outfile):
         outfile.write(self.escapeopen+'{')
         outfile.write(self.styles[ttype][1]+'{%s}' % (escape(tok)))
-        outfile.write(' }'+self.escapeclose)
+        outfile.write('}'+self.escapeclose)
 
     def format_unencoded(self, tokensource, outfile):
         lastval = ''
